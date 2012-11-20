@@ -47,13 +47,16 @@ ZOMG! What is happening?!
 - Outputs a Dependency Graph (vagrant-hitch)
 
 !SLIDE
-# Vagrant-Hitch
+# Stroller
 
 - Converts Vagrantfile into YAML files
 - Makes declaring multiple nodes/provisioners a snap
 - All of this is included in the
-[Intro to Ops](https://github.com/jfryman/nss2012_intro_to_ops) git repo.
+[Stroller](https://github.com/jfryman/stroller) git repo.
   - Clone away!
+
+!SLIDE
+![doitlive](../images/doitlive.jpeg)
 
 
 <!SLIDE small>
@@ -67,13 +70,6 @@ server_](http://vagrantup.com/v1/docs/provisioners/puppet_server.html) provision
   + [Hand build a box](http://vagrantup.com/v1/docs/base_boxes.html) or Automate with [Veewee](https://github.com/jedi4ever/veewee)
 + Only can use VirtualBox as Hypervisor
   - Support for VMWare Fusion comming soon!
-
-<!SLIDE>
-
-+ Q: Do I need Vagrant to do Puppet Development?
-+ A: No, but you'll probably get tired of waiting for a machine to
-reboot to reset to a clean machine
-  + Changes you've made might conflict after iteration versus refactored
 
 
 !SLIDE

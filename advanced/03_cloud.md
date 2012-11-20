@@ -245,8 +245,3 @@ Unless you're into Ops, you shouldn't do this (or you should have a team)
 
 !SLIDE
 ![doitlive](../images/doitlive.jpeg)
-
-
-
-
-
