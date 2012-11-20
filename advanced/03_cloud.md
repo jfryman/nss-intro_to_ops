@@ -7,6 +7,9 @@
 * PaaS Providers (ElasticBeanstalk/Heroku)
 
 !SLIDE
+![comparison](../images/comparison_of_optioins.png)
+
+!SLIDE
 # Your Own Servers
 
 Unless you're into Ops, you shouldn't do this (or you should have a team)
@@ -15,6 +18,7 @@ Unless you're into Ops, you shouldn't do this (or you should have a team)
 ![temper](../images/image669.jpeg)
 
 !SLIDE
+# But why?
 * Time
 * Money
 * Effort
@@ -45,6 +49,8 @@ Unless you're into Ops, you shouldn't do this (or you should have a team)
 * Linode
 * Rackspace
 * Slicehost
+
+!SLIDE
 
 # When do I use this?
 
