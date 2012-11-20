@@ -216,10 +216,35 @@ Unless you're into Ops, you shouldn't do this (or you should have a team)
 ![heroku](../images/heroku.jpeg)
 
 !SLIDE
-# PaaS
+# Heroku
 
 * Fire and Forget: Entire Platform is managed
-* Flexible/Great until it's not
+* Fast prototyping and release to world.
+* Supports multiple languages (Ruby/Python/Java (and JVM)/MOAR!!)
+* Ruby/Rails: Bundle and Go
+* LOTS OF ADDONS!
+
+!SLIDE
+# ElasticBeanstalk
+
+* Similar features, but tie-in w/ AWS
+* Also supports .NET
+
+!SLIDE
+# When do I use this?
+* When you need to release quickly
+* Don't know all that much about Infrastructure/Ops
+* Simple Requirements/Simple Apps
+* Spiking code or testing for larger deployments.
+
+!SLIDE
+# Caveats
+* Beware of costs!
+* Don't develop your app around infrastructure.
+* Not everything can be solved with a hammer.
+
+!SLIDE
+![doitlive](../images/doitlive.jpeg)
 
 
 
