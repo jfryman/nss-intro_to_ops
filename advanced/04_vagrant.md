@@ -12,6 +12,10 @@
 - Puppet
 - Chef
 - CFEngine
+- Ansible
+- Salt
+- AWS
+- DigitalOcean
 - Shell
 
 <!SLIDE smaller>
@@ -44,7 +48,7 @@ ZOMG! What is happening?!
 - Identifies Provisioner (Puppet) and executes (site.pp)
 - Attempts to identify node, executs Puppet code
   - --debug --verbose
-- Outputs a Dependency Graph (vagrant-hitch)
+- Outputs a Dependency Graph
 
 !SLIDE
 # Stroller
@@ -52,12 +56,8 @@ ZOMG! What is happening?!
 - Converts Vagrantfile into YAML files
 - Makes declaring multiple nodes/provisioners a snap
 - All of this is included in the
-[Stroller](https://github.com/jfryman/stroller) git repo.
+[st2workroom](https://github.com/stackstorm/st2workroom) git repo.
   - Clone away!
-
-!SLIDE
-![doitlive](../images/doitlive.jpeg)
-
 
 <!SLIDE small>
 
@@ -67,9 +67,7 @@ ZOMG! What is happening?!
   + Solved with [_puppet
 server_](http://vagrantup.com/v1/docs/provisioners/puppet_server.html) provisioner
 + Vagrant boxes must be built outside of Vagrant
-  + [Hand build a box](http://vagrantup.com/v1/docs/base_boxes.html) or Automate with [Veewee](https://github.com/jedi4ever/veewee)
-+ Only can use VirtualBox as Hypervisor
-  - Support for VMWare Fusion comming soon!
+  + [Hand build a box](http://vagrantup.com/v1/docs/base_boxes.html) or Automate with [Packer](https://packer.io)
 
 
 !SLIDE
