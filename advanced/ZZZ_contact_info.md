@@ -1,5 +1,5 @@
 twitter: @jfryman
 
-email: james@frymanet.com
+email: james@fryman.io
 
-irc: jamison
+irc: jfryman
