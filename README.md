@@ -3,7 +3,7 @@ NSS Introduction to Ops
 
 This is a [showoff](http://github.com/schacon/showoff) presentation.
 
-    git clone https://github.com/jfryman/nss2012_intro_to_ops.git 
+    git clone https://github.com/jfryman/nss_intro_to_ops.git 
     cd nss2012_intro_to_ops
     bundle install
     bundle showoff serve
